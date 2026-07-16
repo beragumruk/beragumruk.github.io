@@ -83,36 +83,6 @@ p {
   color: var(--muted);
 }
 
-.work {
-  margin-top: 2rem;
-  padding-top: 3.5rem;
-  border-top: 1px solid var(--line);
-}
-
-h2 {
-  margin-bottom: 1.4rem;
-  font-size: 1.05rem;
-  font-weight: 650;
-  letter-spacing: -0.01em;
-}
-
-ul {
-  display: grid;
-  gap: 1.15rem;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-li {
-  color: var(--muted);
-}
-
-li strong {
-  color: var(--ink);
-  font-weight: 650;
-}
-
 @media (max-width: 620px) {
   body {
     font-size: 16px;
