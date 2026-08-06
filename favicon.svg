@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect x="2" y="2" width="60" height="60" rx="19" fill="#f3eee6"/>
+  <rect x="2.75" y="2.75" width="58.5" height="58.5" rx="18.25" fill="none" stroke="#d6c9ba" stroke-width="1.5"/>
+  <text x="32" y="40" text-anchor="middle" font-family="Charter, 'Iowan Old Style', Georgia, serif" font-size="27" font-weight="700" letter-spacing="-2" fill="#2d2520">BG</text>
+</svg>
