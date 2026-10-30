@@ -83,7 +83,29 @@ p {
 }
 
 .links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 24px;
+  min-height: 28px;
   color: var(--muted);
+  text-decoration: none;
+}
+
+.links a:hover,
+.links a:focus-visible {
+  color: var(--accent);
+}
+
+.links a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+  border-radius: 2px;
+}
+
+.links svg {
+  display: block;
+  flex-shrink: 0;
 }
 
 @media (max-width: 620px) {
