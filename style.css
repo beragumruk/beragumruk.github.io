@@ -48,14 +48,10 @@ a:hover {
   display: grid;
   place-items: center;
   padding: 4rem 0;
-  text-align: center;
 }
 
 .intro {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 h1,
@@ -80,7 +76,6 @@ p {
 .links {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 1.45rem;
   margin-top: 0.55rem;
   font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
